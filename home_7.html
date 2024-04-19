@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+h1 {
+position: absolute;
+right: 30%;
+}
+
+
+        #header {
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+height: 50px;
+        }
+
+        #header img {
+width: 100px;           
+height: 100px;
+        }
+
+        #navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        #navbar a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+
+        #main-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .frame {
+            flex: 1;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .frame h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .frame p {
+            color: #666;
+        }
+
+        .frame img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .advantages {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="logo.png" alt="Logo">
+        <h1>Welcome to our Online Book Store!</h1>
+    </div><br>
+    <div id="navbar">
+        <a href="home_7.html">Home</a>
+        <a href="login_7.html">Login</a>
+        <a href="catalogue_7.html">Catalogue</a>
+        <a href="registration_7.html">Registration</a>
+    </div>
+    <div class="advantages">
+        <h2>Advantages of Reading Books</h2>
+        <p>Reading books can improve your knowledge, reduce stress, and enhance your vocabulary.</p>
+    </div>
+    <div id="main-content">
+        <div class="frame">
+            <img src="book1.jfif" alt="Book 1">
+            <h2>Featured Books</h2>
+            <p>Discover our hand-picked selection of featured books.</p>
+            <a href="catalogue.html">View More</a>
+        </div>
+        <div class="frame">
+            <img src="book2.jfif" alt="Book 2">
+            <h2>Latest Releases</h2>
+            <p>Check out the newest additions to our collection.</p>
+            <a href="catalogue.html">View More</a>
+        </div>
+        <div class="frame">
+            <img src="book3.jpg" alt="Book 3">
+            <h2>Best Sellers</h2>
+            <p>Explore our most popular books of all time.</p>
+            <a href="catalogue.html">View More</a>
+        </div>
+    </div>
+</body>
+</html>
