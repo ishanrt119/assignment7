@@ -118,7 +118,7 @@
     </div>
     <div class="registration-container">
         <h2>Registration</h2>
-        <form method="POST">
+        <form action="register.php" method="POST">
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" name="email" placeholder="Email" required>
             <input type="text" name="mobile" placeholder="Mobile" required>
@@ -130,8 +130,7 @@
                 <!-- Add more country codes here -->
             </select>
             <input type="text" name="username" placeholder="Username" required>
-<p> Select your favourite genres :</p>            
-<select name="genre[]" multiple required>
+            <select name="genre[]" multiple required>
                 <option value="Mystery">Mystery</option>
                 <option value="Romance">Romance</option>
                 <option value="Fantasy">Fantasy</option>
@@ -142,19 +141,12 @@
                 <option value="Adventure">Adventure</option>
                 <option value="Literary Fiction">Literary Fiction</option>
                 <option value="Non-fiction">Non-fiction</option>
-          
+                <!-- Add more genres here -->
             </select>
             <input type="password" name="password" placeholder="Password" required>
-            <button type="submit" onclick="confirm()">Register</button>
+            <button type="submit">Register</button>
         </form>
         <p>Already have an account? <a href="login_7.html">Login here</a></p>
     </div>
-<script>
-function confirm()
-{
-alert("Registration Successful !!");
-
-}
-</script>
 </body>
 </html>
